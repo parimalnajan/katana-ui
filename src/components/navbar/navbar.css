@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:16px 0 16px 0   ;
+    border-bottom: 2px solid grey;
+}
+.brand{
+    align-self:center;
+    padding-left: 16px;
+    min-width: initial;
+}
+.search-box{
+    align-self: center;    
+}
+.search-box input{
+    border:2px solid grey;
+    border-radius: 4px;
+    padding:4px 16px 4px 16px;
+    margin: 0 12px 0 12px;    
+}
+.brand{
+    justify-self: left;
+}
