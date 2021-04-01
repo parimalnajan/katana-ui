@@ -3,18 +3,18 @@ import React from 'react';
 
 export default function Navbar(props) {
     
-    const navbar=(<div className="navbar">
-    <div className="text-3xl semibold brand"><span>BRAND</span></div>
+    const navbar=(<div className="navbar shadow2">
+    <div className="text-2xl semibold brand text-gray6"><span>BRAND</span></div>
     <div className="header-right flex-row">
-    <div className="search-box">
+    <div className="search-box ">
         <input 
         type="text" 
         placeholder="Search"
-        className="text"></input> </div>
+        className="text shadow"></input> </div>
     <ul className="flex-row list-nav-tabs">
-        <li>item1</li>
-        <li>item2</li>
-        <li>item3</li>
+        <li>icon</li>
+        <li>icon</li>
+        <li>icon</li>
     </ul>
     </div>
 </div>

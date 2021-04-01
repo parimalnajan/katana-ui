@@ -1,12 +1,25 @@
-import logo from './logo.svg';
+import Sidenav from './site-elements/sidenav'
+import Layout from './site-elements/layout'
+import { useState } from 'react';
 import './App.css';
-import Header from './site-elements/header'
+
+import {navArray,Navbar} from './componentCompiler';
 
 function App() {
-  return (
-    <div className="App">   
-    <Header/>
-    </div>
+//
+const [activeComponent,setActiveComponent]=useState(<Navbar/>);
+const changeComponent = (comp) =>{
+  setActiveComponent(comp)
+}
+  return (      
+    <Layout>
+    <div className="App flex-row content-area">
+      <Sidenav navArray={navArray} changeComponent={changeComponent}/>
+      <div className="main-content">
+      <div >{activeComponent}</div></div> 
+     
+      </div>
+    </Layout>  
   );
 }
 

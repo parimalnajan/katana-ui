@@ -1,0 +1,16 @@
+.code-container{
+    border:1px solid var(--gray3);  
+}
+
+.code-header{
+    border-bottom:1px solid var(--gray3);
+    
+}
+.demo-block{
+    padding:0 1rem 1rem 1rem;
+}
+
+
+@media(max-width:576px){
+   
+  }

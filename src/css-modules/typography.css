@@ -1,0 +1,60 @@
+/* typography 
+0.8888
+0.790
+0.70*/
+
+.text-xxs{
+    font-size: 11px;
+    line-height:0.875rem;
+}
+.text-xs{
+    font-size:12.5px;
+    line-height: 1rem;    
+} 
+.text-s{
+    font-size: 14px;
+line-height: 1.25rem;
+}
+.text{
+    font-size: 16px;
+line-height: 1.5rem;
+}
+.text-l{
+    font-size: 18px;
+line-height: 1.75rem;
+}
+.text-xl{
+    font-size: 20px;
+line-height: 1.75rem;
+}
+.text-2xl{
+    font-size:23px;
+line-height: 2rem;
+}
+.text-3xl{
+    font-size: 26px;
+    line-height: 2.25rem;
+}
+/* weights */
+
+.extralight{
+    font-weight: 200;
+}
+.light{
+    font-weight: 400;
+}
+.normal{
+    font-weight: 400;
+}
+.medium{
+    font-weight: 500;
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.extrabold{
+    font-weight: 800;
+}

@@ -1,0 +1,187 @@
+:root {
+    --gray0:#f9fafb;
+    --gray1:#F3F4F6;
+    --gray2:#E5E7EB;
+    --gray3:#D1D5DB;
+    --gray4:#9CA3AF;
+    --gray5:#6B7280;
+    --gray6:#4B5563;
+    --gray7:#374151;
+    --gray8:#1F2937;
+    --gray9:#111827;
+
+    --red0:#FEF2F2;
+    --red1:#FEE2E2;
+    --red2:#FECACA;
+    --red3:#FCA5A5;
+    --red4:#F87171;
+    --red5:#EF4444;
+    --red6:#DC2626;
+    --red7:#B91C1C;
+    --red8:#991B1B;
+    --red9:#7F1D1D;
+    
+    --green0:#F0FDF4;
+    --green1:#DCFCE7;
+    --green2:#BBF7D0;
+    --green3:#86EFAC;
+    --green4:#4ADE80;
+    --green5:#22C55E;
+    --green6:#16A34A;
+    --green7:#15803D;
+    --green8:#166534;
+    --green9:#14532D;
+    
+    --blue0:#EFF6FF;
+    --blue1:#DBEAFE;
+    --blue2:#BFDBFE;
+    --blue3:#93C5FD;
+    --blue4:#60A5FA;
+    --blue5:#3B82F6;
+    --blue6:#2563EB;
+    --blue7:#1D4ED8;
+    --blue8:#1E40AF;
+    --blue9:#1E3A8A;
+
+    --yellow0:#FFFFF0;
+    --yellow1:#FEFCBF;
+    --yellow2:#FAF089;
+    --yellow3:#F6E05E;
+    --yellow4:#ECC94B;    
+    --yellow5:#D69E2E;
+    --yellow6:#B7791F;
+    --yellow7:#975A16;
+    --yellow8:#744210;
+    --yellow9:#5F370E;
+      
+
+   }
+   
+.text-gray0{
+    color:var(--gray0);
+}
+.text-gray1{
+    color:var(--gray1);
+}
+.text-gray2{
+    color:var(--gray2);
+}
+.text-gray3{
+    color:var(--gray3);
+}
+.text-gray4{
+    color:var(--gray4);
+}
+.text-gray5{
+    color:var(--gray5);
+}
+.text-gray5{
+    color:var(--gray5);
+}
+.text-gray6{
+    color:var(--gray6);
+}
+.text-gray7{
+    color:var(--gray7);
+}
+.text-gray8{
+    color:var(--gray8);
+}
+.text-gray9{
+    color:var(--gray9);
+}
+
+
+.text-red0{
+    color:var(--red0);
+}
+.text-red1{
+    color:var(--red1);
+}
+.text-red2{
+    color:var(--red2);
+}
+.text-red3{
+    color:var(--red3);
+}
+.text-red4{
+    color:var(--red4);
+}
+.text-red5{
+    color:var(--red5);
+}
+.text-red6{
+    color:var(--red6);
+}
+.text-red7{
+    color:var(--red7);
+}
+.text-red8{
+    color:var(--red8);
+}
+.text-red9{
+    color:var(--red9);
+}
+
+
+.text-green0{
+    color:var(--green0);
+}
+.text-green1{
+    color:var(--green1);
+}
+.text-green2{
+    color:var(--green2);
+}
+.text-green3{
+    color:var(--green3);
+}
+.text-green4{
+    color:var(--green4);
+}
+.text-green5{
+    color:var(--green5);
+}
+.text-green6{
+    color:var(--green6);
+}
+.text-green7{
+    color:var(--green7);
+}
+.text-green8{
+    color:var(--green8);
+}
+.text-green9{
+    color:var(--green9);
+}
+
+.text-blue0{
+    color:var(--blue0);
+}
+.text-blue1{
+    color:var(--blue1);
+}
+.text-blue2{
+    color:var(--blue2);
+}
+.text-blue3{
+    color:var(--blue3);
+}
+.text-blue4{
+    color:var(--blue4);
+}
+.text-blue5{
+    color:var(--blue5);
+}
+.text-blue6{
+    color:var(--blue6);
+}
+.text-blue7{
+    color:var(--blue7);
+}
+.text-blue8{
+    color:var(--blue8);
+}
+.text-blue9{
+    color:var(--blue9);
+}

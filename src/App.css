@@ -1,7 +1,13 @@
-.App {
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+.App {  
+padding-right: 10%;
+}
+
+ 
+.main-content{
+  width: 100%;
+  height: 100vh;
+  padding: 0 2rem 2rem 2rem;
+ 
 }
 
 
@@ -12,5 +18,23 @@
 }
 
 @media(max-width:576px){
+  .content-area{
+   flex-direction: column;
+   padding: 0px;
+   margin:0px;
+   align-items: flex-start;
+ 
+  }
+  .App{
+    padding:0px;
+  }
+  .main-content{
+    padding: 0px;
+    margin: 0px;
+  
+  }
+}  
 
-}
+
+
+/* tw */

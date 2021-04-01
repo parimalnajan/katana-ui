@@ -1,0 +1,43 @@
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+/* 
+
+
+
+/* Lists */
+.list-number{
+    list-style-type:decimal;
+}
+.list-nav-tabs{
+    list-style-type:none;     
+    margin: 0;  
+    align-self: center;
+}
+.list-nav-tabs li{
+    padding: 0 12px 0 12px;
+}
+
+
+
+.shadow { box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); }
+
+.shadow2{
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05),inset 0 -1px 0 rgba(0,0,0,0.15);
+
+}
