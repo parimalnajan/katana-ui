@@ -8,8 +8,8 @@ import Codedisplay from '../../site-elements/codeDisplay';
 
 
 export default function Button(props) {
-    const button = <button>
-        <span>im a span</span></button>;
+    const button = <button className="button">
+        <span className="text">im a span</span></button>;
  
 
 

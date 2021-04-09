@@ -16,9 +16,10 @@
   text-align: left;
   padding: 8px;
   border:0px solid silver;
-  border-radius: 4px;
+  border-radius: 12px;
   text-decoration: none;
   color: var(--gray7);
+  margin-bottom: 4px;
 }
 
 .sidenav>a:visited{
