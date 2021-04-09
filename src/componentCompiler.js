@@ -8,5 +8,5 @@ export const navArray=[
     {name:"Button",component:<Button/>}
 ]
 
-//to get nav sections of introduction, utils, colors etc, maintain different arrays
+//todo:maintain different arrays for nav sections - introduction, utils, colors etc
 export {Navbar,Button}

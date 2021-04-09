@@ -1,10 +1,8 @@
 import React from 'react'
 import Header from './header'
 
-
 export default function Layout({children,navArray}) {
     
-
     return (<>
         <Header/>
        {children}       
@@ -12,3 +10,4 @@ export default function Layout({children,navArray}) {
         </>
     )
 }
+

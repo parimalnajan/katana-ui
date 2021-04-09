@@ -3,20 +3,23 @@ import ReactDOMServer from "react-dom/server";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
-import formatCode from "./stringFormatter";
+import {formatToHTML,formatToJSX} from "./stringFormatter";
 import './codeDisplay.css'
 
 export default function Codedisplay({ component }) {
    const [codeDisplay, setCodeDisplay] = useState(false);
 
    const componentRawString = ReactDOMServer.renderToStaticMarkup(component);
-   const componentFormattedString = formatCode(componentRawString);
+   const HTMLString = formatToHTML(componentRawString);   
+   const JSXString = formatToJSX(HTMLString)
 
-   let copy = () => {
-      navigator.clipboard.writeText(componentFormattedString).then(
+   const [codeType,setCodeType] = useState(HTMLString);
+ 
+   let copyToClipboard = (code) => {
+      navigator.clipboard.writeText(code).then(
          function () {
             console.log("success");
-            alert("code copied to clipboard!");
+            codeType===HTMLString?alert("HTML code copied!"):alert("JSX code Copied!");
          },
          function () {
             console.log("copied");
@@ -26,26 +29,30 @@ export default function Codedisplay({ component }) {
    return (
       <>
          <div className="code-container">
-            <div className="code-header">
-               <ul className="list-nav-tabs flex-row justify-end">
-                  <li onClick={() => setCodeDisplay(false)}>Component</li>
-                  <li onClick={() => setCodeDisplay(true)}>Code</li>
-                  <li onClick={copy}>Copy</li>
+            <div className="code-header flex-row">          
+               <ul className="list-nav-tabs flex-row text-s semibold">
+                  {codeDisplay
+                     ?<li onClick={() => setCodeDisplay(false)}>Component</li>
+                     :<li onClick={() => setCodeDisplay(true)}>View Code</li>
+                  }
+                  <li onClick={()=>setCodeType(HTMLString)}>{'<html>'}</li>
+                  <li onClick={()=>setCodeType(JSXString)}>{'<jsx>'}</li>
+                  <li onClick={()=>copyToClipboard(codeType)}>Copy</li>
                </ul>
             </div>
-            <div>
-               {!codeDisplay && <div className="demo-block">{component}</div>}
-               {codeDisplay && (
-                  <SyntaxHighlighter
+            <div>              
+                {!codeDisplay
+                  ? <div className="demo-block">{component}</div>
+                  : <SyntaxHighlighter
                      language="html"
                      style={vscDarkPlus}
                      wrapLines={true}
-                     wrapLongLines={false}
-                     customStyle={{ whiteSpace: "pre-wrap",margin:"0px"}}
+                     wrapLongLines={true}
+                     customStyle={{ whiteSpace: "pre-wrap",margin:"0px",paddingTop:"0px"}}
                   >
-                     {componentFormattedString}
+                     {codeType}
                   </SyntaxHighlighter>
-               )}
+               }
             </div>
          </div>
       </>

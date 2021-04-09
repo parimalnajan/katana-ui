@@ -1,4 +1,10 @@
-export  const formatCode = function(code, stripWhiteSpaces, stripEmptyLines) {
+// Original: https://jsfiddle.net/buksy/rxucg1gd/
+// Parameters:
+// code 					- (string) code you wish to format
+// stripWhiteSpaces			- (boolean) do you wish to remove multiple whitespaces coming after each other?
+// stripEmptyLines 			- (boolean) do you wish to remove empty lines?
+        //const formatCode = function(code, stripWhiteSpaces, stripEmptyLines) {
+   export const formatToHTML = function(code, stripWhiteSpaces, stripEmptyLines) {
     "use strict";
     var whitespace          = ' '.repeat(4);             // Default indenting 4 whitespaces
     var currentIndent       = 0;
@@ -32,4 +38,10 @@ export  const formatCode = function(code, stripWhiteSpaces, stripEmptyLines) {
     return result;
 }
 
-export default formatCode
+    export const formatToJSX = (HTMLFormattedString) =>{
+        const search = 'class=';
+        const replaceWith = 'className=';
+        const result = HTMLFormattedString.replaceAll(search, replaceWith);
+
+        return result; 
+    }

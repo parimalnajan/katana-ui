@@ -1,8 +1,9 @@
 .sidenav{
-    background-color:var(--gray0);
-    height:100vh;
+    background-color:var(--gray2);
+    min-height:100vh;
     width:25%;
     padding:32px;    
+    padding-top: 17px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
