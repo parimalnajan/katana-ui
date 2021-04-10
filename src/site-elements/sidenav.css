@@ -1,5 +1,6 @@
 .sidenav{
-    background-color:var(--gray2);
+    background-color:var(--gray0);
+    /* background-color: white; */
     min-height:100vh;
     width:25%;
     padding:32px;    
@@ -16,7 +17,7 @@
   text-align: left;
   padding: 8px;
   border:0px solid silver;
-  border-radius: 12px;
+  border-radius: 8px;
   text-decoration: none;
   color: var(--gray7);
   margin-bottom: 4px;
@@ -26,13 +27,13 @@
 text-decoration: none;
 }
 .sidenav>a:hover{
-  background-color: var(--yellow5);
+  background-color:var(--gray1);
   cursor: pointer;
-  color:white;
+  color:black;
 }
 .sidenav>a:focus{
   color:white;
-  background-color: var(--yellow5);
+  background-color: var(--yellow6);
   outline: none;
 }
 .sidenav>a:active{

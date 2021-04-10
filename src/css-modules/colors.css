@@ -1,3 +1,4 @@
+/* color palettes from tailwind, yellow palette from  https://chakra-ui.com/docs/theming/theme*/
 :root {
     --gray0:#f9fafb;
     --gray1:#F3F4F6;
@@ -43,16 +44,27 @@
     --blue8:#1E40AF;
     --blue9:#1E3A8A;
 
-    --yellow0:#FFFFF0;
-    --yellow1:#FEFCBF;
-    --yellow2:#FAF089;
-    --yellow3:#F6E05E;
-    --yellow4:#ECC94B;    
-    --yellow5:#06214e;
-    --yellow6:#B7791F;
-    --yellow7:#975A16;
-    --yellow8:#744210;
-    --yellow9:#5F370E;
+    --cyellow0:#FFFFF0;
+    --cyellow1:#FEFCBF;
+    --cyellow2:#FAF089;
+    --cyellow3:#F6E05E;
+    --cyellow4:#ECC94B;    
+    --cyellow5:#DD6B20;
+    --cyellow6:#B7791F;
+    --cyellow7:#975A16;
+    --cyellow8:#744210;
+    --cyellow9:#5F370E;
+
+    --yellow0:#FEFCE8;
+    --yellow1:#FEF9C3;
+    --yellow2:#FEF08A;
+    --yellow3:#FDE047;
+    --yellow4:#FACC15;    
+    --yellow5:#EAB308;
+    --yellow6:#CA8A04;
+    --yellow7:#A16207;
+    --yellow8:#854D0E;
+    --yellow9:#713F12;
 
     --akigreen:#a7aa37;      
 

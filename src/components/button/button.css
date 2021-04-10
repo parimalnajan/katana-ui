@@ -1,3 +1,114 @@
-.button{
-    
+.buttons__list button{
+    margin-right: 2rem;
+}
+
+.block{
+    display: block;
+    min-width: 100%;
+}
+.block button{
+    display: block;
+    min-width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+.button-primary{    
+    border-radius: 4px;
+    background-color: var(--blue6);
+    padding: 0.5em 1em 0.5em 1em;
+    color:var(--blue1);
+    cursor: pointer;
+}
+.button-primary:hover{
+    background-color: var(--blue7);
+   
+}
+.button-primary-outline{
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid;
+    border-color: var(--blue6);
+    padding: 0.5em 1em 0.5em 1em;
+    color:var(--blue6);
+    cursor: pointer;
+}
+.button-primary-outline:hover{
+    background-color: var(--blue6);
+    color:var(--gray0);
+}
+
+
+.button-secondary{    
+    border-radius: 4px;
+    background-color: var(--gray5);
+    padding: 0.5em 1em 0.5em 1em;
+    color:var(--gray1);
+    cursor: pointer;
+}
+.button-secondary:hover{
+    background-color: var(--gray6);
+}
+.button-secondary-outline{
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid;
+    border-color: var(--gray6);
+    padding: 0.5em 1em 0.5em 1em;
+    color:var(--gray6);
+    cursor: pointer;
+}
+.button-secondary-outline:hover{
+    background-color: var(--gray6);
+    color:var(--gray1);
+}
+
+
+.button-danger{
+    border-radius: 4px;
+    background-color: var(--red6);
+    padding: 0.5em 1em 0.5em 1em;
+    color:var(--red0);
+    cursor: pointer;
+}
+
+.button-danger:hover{
+    background-color: var(--red7);
+}
+.button-danger-outline{
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid;
+    border-color: var(--red6);
+    padding: 0.5em 1em 0.5em 1em;
+    color:var(--red6);
+    cursor: pointer;
+}
+.button-danger-outline:hover{
+    background-color: var(--red6);
+    color:var(--red0);
+}
+
+
+.button-warning{    
+    border-radius: 4px;
+    background-color: var(--yellow4);
+    padding: 0.5em 1em 0.5em 1em;
+    color:var(--yellow9);
+    cursor: pointer;
+}
+.button-warning:hover{
+    background-color: var(--yellow5);
+}
+.button-warning-outline{
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid;
+    border-color: var(--yellow4);
+    padding: 0.5em 1em 0.5em 1em;
+    color:var(--yellow4);
+    cursor: pointer;
+}
+.button-warning-outline:hover{
+    background-color: var(--yellow4);
+    color:var(--yellow0);
 }

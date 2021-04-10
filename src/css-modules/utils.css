@@ -16,6 +16,8 @@
 .justify-end{
     justify-content: flex-end;
 }
+
+.
 /* 
 
 
@@ -31,6 +33,16 @@
 }
 .list-nav-tabs li{
     padding: 0 12px 0 12px;
+}
+
+.list-basic{
+    list-style-type:none;     
+    margin: 0;  
+    align-self: center;
+}
+
+.list-basic li{
+    padding: 0 4px 0 4px;
 }
 
 

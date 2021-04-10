@@ -30,7 +30,7 @@ export default function Codedisplay({ component }) {
       <>
          <div className="code-container">
             <div className="code-header flex-row">          
-               <ul className="list-nav-tabs flex-row text-s semibold">
+               <ul className="list-basic flex-row text-sm medium code-header__list">
                   {codeDisplay
                      ?<li onClick={() => setCodeDisplay(false)}>Component</li>
                      :<li onClick={() => setCodeDisplay(true)}>View Code</li>
