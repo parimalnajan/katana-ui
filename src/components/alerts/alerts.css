@@ -1,0 +1,55 @@
+.alerts__list div{
+ margin:16px;
+}
+.alerts__list i{
+    margin-right: 1em;
+}
+
+.alert--danger{
+    background-color: var(--red1);
+    border:1px solid var(--red3);
+    border-left:5px solid var(--red8);
+    color:var(--red8);
+    
+    border-radius: 2px;
+    padding:0.75rem;
+    padding-right: 3rem;
+    max-width:fit-content;
+}
+
+
+.alert--warning{
+    background-color: var(--yellow1);
+    border:1px solid var(--yellow3);
+    border-left:5px solid var(--yellow8);
+    color:var(--yellow8);
+
+    padding:0.75rem;
+    padding-right: 3rem;
+    max-width:fit-content;
+    border-radius: 2px;
+}
+
+.alert--info{
+    background-color: var(--blue1);
+    border:1px solid var(--blue3);
+    border-left:5px solid var(--blue8);
+    color:var(--blue8);
+
+    padding:0.75rem;
+    padding-right: 3rem;
+    max-width:fit-content;
+    border-radius: 2px;
+}
+
+.alert--success{
+    background-color: var(--green1);
+    border:1px solid var(--green3);
+    border-left:5px solid var(--green8);
+    color:var(--green8);
+
+    padding:0.75rem;
+    padding-right: 3rem;
+    max-width:fit-content;
+    border-radius: 2px;
+}

@@ -42,6 +42,6 @@
         const search = 'class=';
         const replaceWith = 'className=';
         const result = HTMLFormattedString.replaceAll(search, replaceWith);
-
+        //may not work with all browsers
         return result; 
     }

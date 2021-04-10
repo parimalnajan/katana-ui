@@ -6,7 +6,7 @@ export default function Typography(props) {
    const textSizes = 
     <div>
        <p className="text-3xl">Sample text with class text-3xl</p>
-       <p className="text-2xl">Sample text with class text--2xl</p>
+       <p className="text-2xl">Sample text with class text-2xl</p>
        <p className="text-xl">Sample text with class text-xl </p>
        <p className="text-lg">Sample text with class text-lg</p>
        <p className="text">Sample text with class text</p>

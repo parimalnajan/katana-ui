@@ -18,6 +18,7 @@ function App() {
             <div className="main-content">{activeComponent}</div>
          </div>
       </Layout>
+   // make sidenav a part of layout and flex-row it with it's children, i.e main content
    );
 }
 
