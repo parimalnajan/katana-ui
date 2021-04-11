@@ -1,0 +1,20 @@
+.avatar{
+    border-radius: 100%;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    height: 3em;
+    width: 3em;  
+}
+
+.avatars-wrapper div{
+ margin-right: 1rem;
+}
+
+img{
+    height: 3em;
+    width: 3em; 
+    border-radius: 100%; 
+}

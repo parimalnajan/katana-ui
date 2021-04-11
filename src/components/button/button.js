@@ -3,7 +3,7 @@ import Codedisplay from '../../site-elements/codeDisplay';
 
 export default function Button(props) {
    const semanticButtons = (
-      <div className="buttons__list">
+      <div className=" buttons__list">
          <button className="text-sm button-primary">Primary Button</button>
          <button className="text-sm button-secondary">Secondary Button</button>
          <button className="text-sm button-danger">Danger Button</button>
