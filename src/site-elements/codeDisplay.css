@@ -8,8 +8,8 @@
     justify-content:flex-end;
 }
 
-.code-header__list{
- 
+.code-header__list li{
+ cursor: pointer;
 }
 .code-header__list li{
     border-left:2px solid var(--gray3);

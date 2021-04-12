@@ -1,0 +1,43 @@
+.badges-wrapper div{
+    margin-right: 8px;
+}
+
+.badge{
+    padding:.25em .4em .25em .4em;
+    text-justify: center;
+    text-align:center;
+    border-radius: 4px;
+}
+
+.badge--status{
+    border-radius: 100%;
+    height: .9em;
+    width: .9em; 
+    
+    border:2px solid gray;
+}
+
+.badge--primary{
+    background-color: var(--blue7);
+    color:var(--blue0);
+    
+}
+
+.badge--success{
+    background-color: var(--green7);
+    color:var(--green0);
+}
+
+
+.badge--warning{
+    background-color: var(--yellow5 );
+}
+.badge--danger{
+    background-color: var(--red7);
+    color:var(--red0);
+}
+
+.badge--passive{
+    background-color: var(--gray5);
+    color: #FFF;
+}

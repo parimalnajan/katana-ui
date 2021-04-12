@@ -7,14 +7,20 @@
     color:white;
     height: 3em;
     width: 3em;  
+   
 }
 
 .avatars-wrapper div{
  margin-right: 1rem;
 }
 
-img{
+.avatar--img{
     height: 3em;
     width: 3em; 
     border-radius: 100%; 
+   
+}
+
+.badge-position{
+    transform: translate(1.3em,1em); 
 }

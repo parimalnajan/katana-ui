@@ -7,6 +7,7 @@
 @import "./css-modules/typography.css";
 @import "/src/components/alerts/alerts.css";
 @import "/src/components/avatars/avatars.css";
+@import "/src/components/badges/badges.css";
 
 body {
  

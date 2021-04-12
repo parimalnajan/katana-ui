@@ -32,55 +32,51 @@ export default function Avatars(props) {
     const imageAvatars = (
        <div className="avatars-wrapper flex-row">
           <div className="avatar--img semibold size1">
-             <img
+             <img className="avatar--img"
                 src="https://static.wikia.nocookie.net/kiminonawa/images/
                a/a8/Taki_Tachibana_2016.png"
              ></img>
           </div>
 
           <div className="avatar--img semibold size2">
-             <img
+             <img className="avatar--img"
                 src="https://static.wikia.nocookie.net/kiminonawa/images/
                a/a8/Taki_Tachibana_2016.png"
              ></img>
           </div>
 
           <div className="avatar--img semibold size3">
-             <img
+             <img className="avatar--img"
                src="https://static.wikia.nocookie.net/kiminonawa/images/c/c6/Taki_Tachibana_2022.png"
              ></img>
           </div>
           <div className="avatar--img semibold size4">
-             <img
+             <img className="avatar--img"
                src="https://static.wikia.nocookie.net/kiminonawa/images/c/c6/Taki_Tachibana_2022.png"
              ></img>
           </div>
 
           <div className="avatar--img semibold size5">
-             <img
+             <img className="avatar--img"
                src="https://static.wikia.nocookie.net/kiminonawa/images/c/c6/Taki_Tachibana_2022.png"
              ></img>
           </div>
        </div>
     );
     return (
-        <>
-              <p className="text-3xl bold">Avatars</p>
-         <p className="text light">
-            Avatars are the masters who can bend all 4 elements
-            whose duty is to maintain harmony among the four nations and 
-            act as a mediator between humans and spirits.
-         </p>
-         <br />
-         <p className="text-xl semibold">         
-            Avatars with various sizes
-         </p>
-            <Codedisplay component={avatars}/>
+       <>
+          <p className="text-3xl bold">Avatars</p>
+          <p className="text light">
+             Avatars are the masters who can bend all 4 elements whose duty is
+             to maintain harmony among the four nations and act as a mediator
+             between humans and spirits.
+          </p>
+          <br />
+          <p className="text-xl semibold">Avatars with various sizes</p>
+          <Codedisplay component={avatars} />
 
-            <p className="text-xl semibold">         
-            Avatars with Image tags
-         </p>
-            <Codedisplay component={imageAvatars}/>
-        </>
-    )
+          <p className="text-xl semibold">Avatars with Image tags</p>
+          <Codedisplay component={imageAvatars} />
+       </>
+    );
 }
