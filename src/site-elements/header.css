@@ -8,20 +8,24 @@
     padding:8px 0 8px 0;
     border-bottom: 0px solid silver;
     width: 100%;    
-    background-color: var(--yellow6);  
+    /* background-color: var(--yellow6);   */
+    background-color: WHITE;
 }
 .header-left{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .site-brand{
     align-items:center;
     padding-left: 2.5rem;
-    color:var(--yellow0);     
+    /* color:var(--yellow0);  */
+    color:black;
+    display: flex;    
+    flex-direction: column;
 }
 .site-brand-logo{
-    width: 30px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     padding-right: 8px;
 }
 

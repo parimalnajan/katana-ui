@@ -1,3 +1,18 @@
+.m25 {
+   mrgin: 0.25rem;
+}
+.mr25 {
+   margin-right: 0.25rem;
+}
+.ml25 {
+   margin-left: 0.25rem;
+}
+.mt25 {
+   margin-top: 0.25rem;
+}
+.mb25 {
+   margin-bottom: 0.25rem;
+}
 
 .m0 {
     margin: 0.5rem;

@@ -36,6 +36,20 @@ export default function Button(props) {
     </div>
    )
 
+   const flloatingButton =(<div className="flex-row">
+
+
+      <button className="button--floating text-2xl">
+      <i class="fas fa-bars"></i> 
+      </button>
+
+      <button className="button--floating text-2xl">
+      <i class="fas fa-times"></i>
+      </button>
+      </div>
+   )
+
+
    return (
       <>
          <p className="text-3xl bold">Buttons</p>
@@ -70,6 +84,15 @@ export default function Button(props) {
             These buttons occupy the full width of their container 
          </p>
          <Codedisplay component={blockButtons} />
+
+         <p className="text-xl semibold">         
+            Floating Buttons
+         </p>
+         <p className="text light">
+            These buttons float on the screen, independent of the content flow
+            Hamburger menu icon, and close menu icon are available
+         </p>
+         <Codedisplay component={flloatingButton} />
       </>
    );
 }

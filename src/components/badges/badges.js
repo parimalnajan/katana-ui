@@ -5,9 +5,9 @@ export default function Badges(props) {
     
     const badges=(
         <div className="badges-wrapper flex-row ">
-           <div> <span  className="text-2xs semibold badge badge--primary" >NEW</span></div>
-           <div> <span className="text-2xs semibold badge badge--success">SALE</span></div>
-           <div> <span className="text-sm semibold badge badge--danger">Out of stock</span></div>
+           <div> <span  className="text-2xs semibold badge--basic badge--primary" >NEW</span></div>
+           <div> <span className="text-2xs semibold badge--basic badge--success">SALE</span></div>
+           <div> <span className="text-sm semibold badge--basic badge--danger">Out of stock</span></div>
         </div>
     )
 
@@ -35,6 +35,56 @@ export default function Badges(props) {
        </div>
     );
 
+    const avatarBadges = (
+       <div className="badges-wrapper flex-row">
+         
+            <div className="avatar--img badge--avatar semibold size1">
+             <img className="avatar--img"
+                src="https://static.wikia.nocookie.net/kiminonawa/images/
+               a/a8/Taki_Tachibana_2016.png"
+             ></img>
+             <div className=" badge--status badge--primary badge--avatar__badge"></div>
+          </div>  
+                
+         
+          <div className="avatar--img badge--avatar semibold size2">
+             <img className="avatar--img"
+                src="https://static.wikia.nocookie.net/kiminonawa/images/
+               a/a8/Taki_Tachibana_2016.png"
+             ></img>
+             <div className=" badge--status badge--success badge--avatar__badge"></div>
+          </div> 
+
+          
+          <div className="avatar--img badge--avatar semibold size3">
+             <img className="avatar--img"
+                src="https://static.wikia.nocookie.net/kiminonawa/images/
+               a/a8/Taki_Tachibana_2016.png"
+             ></img>
+             <div className=" badge--status badge--warning badge--avatar__badge"></div>
+          </div> 
+
+
+          
+          <div className="avatar--img badge--avatar semibold size4">
+             <img className="avatar--img"
+                src="https://static.wikia.nocookie.net/kiminonawa/images/
+               a/a8/Taki_Tachibana_2016.png"
+             ></img>
+             <div className=" badge--status badge--danger badge--avatar__badge"></div>
+          </div> 
+
+          <div className="avatar--img badge--avatar semibold size5">
+             <img className="avatar--img"
+                src="https://static.wikia.nocookie.net/kiminonawa/images/
+               a/a8/Taki_Tachibana_2016.png"
+             ></img>
+             <div className=" badge--status badge--passive badge--avatar__badge"></div>
+          </div> 
+
+       </div>
+    )
+
     return (
         <>
                  <p className="text-3xl bold">Badges</p>
@@ -58,6 +108,15 @@ export default function Badges(props) {
             </p>
          </p>
             <Codedisplay component={statusBadges}/>
+
+            <p className="text-xl semibold">         
+            Avatars with badges
+            <p className="text light">
+                Used to dispaly ser activity status
+                These Badges use 'em' units 
+            </p>
+         </p>
+            <Codedisplay component={avatarBadges}/>
         </>
     )
 }
