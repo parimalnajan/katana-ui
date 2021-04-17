@@ -9,13 +9,6 @@ export default function Navbar(props) {
             <span>BRAND</span>
          </div>
          <div className="header-right flex-row">
-            <div className="search-box ">
-               <input
-                  type="text"
-                  placeholder="Search"
-                  className="text shadow"
-               ></input>{" "}
-            </div>
             <ul className="flex-row list-nav-tabs">
                <li>icon</li>
                <li>icon</li>
@@ -24,14 +17,14 @@ export default function Navbar(props) {
          </div>
       </div>
    );
-   return <> <p className="text-3xl bold">Navbars</p>
-   <p className="text light">
-      
-   </p>
-   <br />
-   <p className="text-xl semibold">         
-      Navbar with searchbox and link
-   </p>
-   <Codedisplay component={navbar} />
-   </>;
+   return (
+      <>
+         {" "}
+         <p className="text-3xl bold">Navbars</p>
+         <p className="text light"></p>
+         <br />
+         <p className="text-xl semibold">Navbar with searchbox and link</p>
+         <Codedisplay component={navbar} />
+      </>
+   );
 }

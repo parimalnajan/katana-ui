@@ -11,9 +11,9 @@ export default function Header(props) {
           <div className="site-navbar shadow2 ">
              <div className="header-left">
                 <div className="text-3xl semibold site-brand flex-column">
-                <span>k a t a n a </span>
+                <span className="">Cocoa.ui </span>
                    <span>
-                      <img className="site-brand-logo" src={image} />
+                      {/* <img className="site-brand-logo" src={} /> */}
                    </span>
                    
                 </div>

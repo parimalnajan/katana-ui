@@ -1,0 +1,37 @@
+.input--search-box{
+    align-self: center;
+}
+.input--search-box {
+    border:2px solid var(--gray3);
+    border-radius: 4px;
+    padding:0.25rem 1rem 0.25rem 1rem;
+    margin: 0 12px 0 12px; 
+    outline:none;
+    min-width: 150px;
+    max-width: 300px;
+}
+
+.input--search-box input {
+    border:none;  
+   
+    outline:none;
+    min-width: 150px;
+    width:80%;
+    max-width: 300px;
+}
+
+.input--basic{
+    border:2px solid var(--gray3);
+    border-radius: 4px;
+    padding:0.25rem 1rem 0.25rem 1rem;
+   
+    outline:none;
+
+    width:200px;
+    min-width: 150px;
+    max-width: 300px;
+}
+
+.input--error{
+    border-color:var(--red5) ;
+}

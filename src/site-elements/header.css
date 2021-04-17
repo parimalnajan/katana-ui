@@ -49,7 +49,7 @@
 }
 .ver{
     align-self: center;
-    color: var(--yellow0);
+    /* color: var(--yellow0); */
 }
 
 @media(max-width:992px){

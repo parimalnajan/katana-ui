@@ -3,10 +3,10 @@ import Layout from "./site-elements/layout";
 import { useState } from "react";
 import "./App.css";
 
-import { navArray, Navbar } from "./componentCompiler";
+import { navArray, Introduction } from "./componentCompiler";
 
 function App() {   
-   const [activeComponent, setActiveComponent] = useState(<Navbar />);
+   const [activeComponent, setActiveComponent] = useState(<Introduction />);
 
    const changeComponent = (componentFromSideNav) => {
       setActiveComponent(componentFromSideNav);

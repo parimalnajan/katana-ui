@@ -11,17 +11,7 @@
     padding-left: 1rem;
     min-width: initial;
 }
-.search-box{
-    align-self: center;
-}
-.search-box input{
-    border:0px solid silver;
-    border-radius: 4px;
-    padding:0.25rem 1rem 0.25rem 1rem;
-    margin: 0 12px 0 12px; 
-    outline:none;
-    min-width: 250px;
-}
+
 .brand{
     justify-self: left;
 }
