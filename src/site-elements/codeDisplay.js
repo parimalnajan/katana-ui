@@ -32,12 +32,15 @@ export default function Codedisplay({ component }) {
             <div className="code-header flex-row">          
                <ul className="list-basic flex-row text-sm medium code-header__list">
                   {codeDisplay
-                     ?<li onClick={() => setCodeDisplay(false)}>View Output</li>
+                     ?<>
+                     <li onClick={()=>setCodeType(HTMLString)}>{'html'}</li>
+                     <li onClick={()=>setCodeType(JSXString)}>{'jsx'}</li>
+                     <li onClick={() => setCodeDisplay(false)}>View Output</li>
+                     </>
                      :<li onClick={() => setCodeDisplay(true)}>View Code</li>
                   }
-                  <li onClick={()=>setCodeType(HTMLString)}>{'<html>'}</li>
-                  <li onClick={()=>setCodeType(JSXString)}>{'<jsx>'}</li>
-                  <li onClick={()=>copyToClipboard(codeType)}>Copy</li>
+                  
+                  <li onClick={()=>copyToClipboard(codeType)}><i class="fas fa-clipboard"></i></li>
                </ul>
             </div>
             <div>              

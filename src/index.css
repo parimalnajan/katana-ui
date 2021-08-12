@@ -11,6 +11,7 @@
 @import "/src/components/cards/cards.css";
 @import "/src/components/inputs/inputs.css";
 @import "/src/components/lists/lists.css";
+@import "/src/components/intro/introduction.css";
 
 body {
  

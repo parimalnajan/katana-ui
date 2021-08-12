@@ -1,0 +1,19 @@
+.link_copy{
+    align-self: flex-end;
+}
+
+.colortile{
+   
+    height:48px ;
+    width: 64px;
+    background-color: yellowgreen;
+    border-radius: 10%;
+    margin:5px;
+}
+
+.color-wrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}

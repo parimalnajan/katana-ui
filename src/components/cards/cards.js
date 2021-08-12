@@ -65,15 +65,16 @@ export default function Cards(props) {
     }
     const imageCard = (
        <div className="card--image flex-column">
-           <div className="flex-row card--image__wishlist-btn">
-               <i class="fas fa-heart"></i>
-           </div>
+          <div className="flex-row card--image__wishlist-btn">
+             <i class="fas fa-heart"></i>
+          </div>
           <img src="https://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK-1024-80.jpg.webp"></img>
 
           <div className="card--image__body">
+             <div className="prod_category text-xs light mb0">
+                {product.category}
+             </div>
              <div className="text semibold mb25">{product.title}</div>
-           
-             <div className="text-xs light mb0">{product.category}</div>
              <div className="rating flex-row">
                 <div className="text-2xs semibold badge--basic badge--success rating__badge">
                    <span>{product.ratingScore}</span>
