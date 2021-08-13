@@ -63,7 +63,7 @@ export default function Introduction(props) {
              To Components
           </button>
           <a
-              href="/build/export.css"
+              href="/dist/css/export.css"
               type="button"
               download="katana.css"
               className=""
