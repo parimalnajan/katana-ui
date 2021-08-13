@@ -32,13 +32,13 @@ export default function Alerts(props) {
 
     return (
         <>
-            <p className="text-3xl bold">Alerts</p>
+            <p className="text-3xl medium">Alerts</p>
          <p className="text light">
          Alerts are used to communicate contextual feedback messages
          that affects a system, feature or page.
          </p>
          <br />
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Contextal Alerts
          </p>
             <Codedisplay component={alerts}/>

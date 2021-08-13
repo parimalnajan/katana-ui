@@ -52,24 +52,24 @@ export default function Button(props) {
 
    return (
       <>
-         <p className="text-3xl bold">Buttons</p>
+         <p className="text-3xl medium">Buttons</p>
          <p className="text light">
             The Button component is used to trigger an action or event, such as
             submitting a form, opening a dialog, canceling an action, or
             performing a delete operation.
          </p>
          <br />
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Buttons with different semantic purposes
          </p>
          <Codedisplay component={semanticButtons} />
 
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Outline Buttons
          </p>
          <Codedisplay component={outlineButtons} />
     
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Buttons with different sizes
          </p>
          <p className="text light">
@@ -77,7 +77,7 @@ export default function Button(props) {
          </p>
          <Codedisplay component={sizedButtons} />
         
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Block buttons
          </p>
          <p className="text light">
@@ -85,7 +85,7 @@ export default function Button(props) {
          </p>
          <Codedisplay component={blockButtons} />
 
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Floating Buttons
          </p>
          <p className="text light">

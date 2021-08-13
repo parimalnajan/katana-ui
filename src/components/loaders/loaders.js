@@ -43,7 +43,7 @@ const spinnerEmptyArea = (
 
     return (
         <>  
-        <p className="text-3xl bold">Loaders</p>
+        <p className="text-3xl medium">Loaders</p>
         <p className="text light">
          Loaders can be used as placeholders while app data is populated
         <br/>
@@ -52,10 +52,10 @@ const spinnerEmptyArea = (
         </p>
         
         <br/>
-        <p className="text-xl semibold">Spinners with different sizes</p>
+        <p className="text-xl medium">Spinners with different sizes</p>
         <Codedisplay component={spinner}></Codedisplay>
 
-        <p className="text-xl semibold">Spinners with empty area</p>
+        <p className="text-xl medium">Spinners with empty area</p>
         <p className="text light">
         The 'empty' class adds the empty area color</p>
         <Codedisplay component={spinnerEmptyArea}></Codedisplay>

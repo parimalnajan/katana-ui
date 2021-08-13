@@ -87,7 +87,7 @@ export default function Badges(props) {
 
     return (
         <>
-                 <p className="text-3xl bold">Badges</p>
+                 <p className="text-3xl medium">Badges</p>
          <p className="text light">
            Bagdes are required for trainers to participate in regional leagues.
            Every badge is unique, it acts as a proof that the trainer has defeated
@@ -95,11 +95,11 @@ export default function Badges(props) {
 
          </p>
          <br />
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Badges with contextual variations
          </p>
             <Codedisplay component={badges}/>
-            <p className="text-xl semibold">         
+            <p className="text-xl medium">         
             Badges for activity status
             <p className="text light">
                 These Badges use 'em' units so theyre responsive
@@ -109,7 +109,7 @@ export default function Badges(props) {
          </p>
             <Codedisplay component={statusBadges}/>
 
-            <p className="text-xl semibold">         
+            <p className="text-xl medium">         
             Avatars with badges
             <p className="text light">
                 Used to dispaly ser activity status

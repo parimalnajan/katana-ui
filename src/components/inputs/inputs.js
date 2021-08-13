@@ -38,13 +38,13 @@ export default function Inputs(props) {
     
 
     return (
-        <> <p className="text-3xl bold">Inputs</p>
+        <> <p className="text-3xl medium">Inputs</p>
        
-        <p className="text-xl semibold">searchbox input</p>
+        <p className="text-xl medium">SearchBox</p>
         <Codedisplay component={searchInput} />
-        <p className="text-xl semibold">Basic input box</p>
+        <p className="text-xl medium">Basic input box</p>
         <Codedisplay component={basicInput} /> 
-        <p className="text-xl semibold">Basic input box</p>
+        <p className="text-xl medium">Basic input box</p>
         <Codedisplay component={inputError} />       
         </>
     )

@@ -65,17 +65,17 @@ export default function Avatars(props) {
     );
     return (
        <>
-          <p className="text-3xl bold">Avatars</p>
+          <p className="text-3xl medium">Avatars</p>
           <p className="text light">
              Avatars are the masters who can bend all 4 elements whose duty is
              to maintain harmony among the four nations and act as a mediator
              between humans and spirits.
           </p>
           <br />
-          <p className="text-xl semibold">Avatars with various sizes</p>
+          <p className="text-xl medium">Avatars with various sizes</p>
           <Codedisplay component={avatars} />
 
-          <p className="text-xl semibold">Avatars with Image tags</p>
+          <p className="text-xl medium">Avatars with Image tags</p>
           <Codedisplay component={imageAvatars} />
        </>
     );

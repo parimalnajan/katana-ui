@@ -103,12 +103,12 @@ export default function Cards(props) {
 
     return (
         <>
-        <p className="text-3xl bold">Cards</p>
+        <p className="text-3xl medium">Cards</p>
          <p className="text light">
             The card component encapsulates relevant information pieces.
          </p>
          <br />
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Basic Cards
          </p>
          <p className="text light">
@@ -116,7 +116,7 @@ export default function Cards(props) {
          </p>
          <Codedisplay component={basicCard} />
 
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Cards with shadow
          </p>
          <p className="text">
@@ -127,7 +127,7 @@ export default function Cards(props) {
          <Codedisplay component={shadowCard} />
 
 
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Cards with Dismiss icon and label
          </p>
          <p className="text medium "> 
@@ -140,7 +140,7 @@ export default function Cards(props) {
          <Codedisplay component={dismissCard} />
 
 
-         <p className="text-xl semibold">         
+         <p className="text-xl medium">         
             Cards with image and description
          </p>
          <Codedisplay component={imageCard} />

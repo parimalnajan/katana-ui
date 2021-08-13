@@ -44,7 +44,7 @@ export default function Lists(props) {
 
     return (
         <>
-           <p className="text-3xl bold">Lists</p>
+           <p className="text-3xl medium">Lists</p>
          <p className="text light">
            
          </p>

@@ -33,7 +33,7 @@ text-decoration: none;
 }
 .sidenav>a:focus{
   color:white;
-  background-color: var(--yellow6);
+  background-color: var(--blue6);
   outline: none;
 }
 .sidenav>a:active{

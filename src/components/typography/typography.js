@@ -28,10 +28,10 @@ export default function Typography(props) {
 
    return (
       <>
-         <p className="text-3xl bold">Typography</p>
-         <p className="text-xl semibold">Classes for size variations</p>       
+         <p className="text-3xl medium">Typography</p>
+         <p className="text-xl medium">Classes for size variations</p>       
          <CodeDisplay component={textSizes}/>
-         <p className="text-xl semibold"> Classs for weight variations</p>
+         <p className="text-xl medium"> Classs for weight variations</p>
          <CodeDisplay component={textWeights}/>
       
       </>
