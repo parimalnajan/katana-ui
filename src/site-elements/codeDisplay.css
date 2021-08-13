@@ -1,11 +1,14 @@
 .code-container{
     border:2px solid var(--gray3);  
+    border-radius: 8px;
     margin-bottom: 4rem;
+    position: static;
 }
 
 .code-header{
     border-bottom:2px solid var(--gray3);
     justify-content:flex-end;
+    position: static;
 }
 
 .code-header__list li{
@@ -14,6 +17,7 @@
 .code-header__list li{
     border-left:2px solid var(--gray3);
     padding:0.8em;
+    border-radius: 8px;
 }
 .demo-block{
     padding:1rem;
@@ -22,3 +26,14 @@
 @media(max-width:576px){
    
   }
+
+.copy-toast{
+    position: absolute;    
+    right: 110px;
+    opacity: 0.7;
+   
+}
+
+.copy-toast--master{
+   
+}

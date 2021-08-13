@@ -12,7 +12,7 @@
 @import "/src/components/inputs/inputs.css";
 @import "/src/components/lists/lists.css";
 @import "/src/components/intro/introduction.css";
-
+@import "/src/components/loaders/loaders.css";
 body {
  
   margin: 0;

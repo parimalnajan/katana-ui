@@ -24,8 +24,9 @@
     flex-direction: column;
 }
 .site-brand-logo{
-    width: 150px;
-    height: 40px;
+
+   
+    object-fit:cover;
     padding-right: 8px;
 }
 

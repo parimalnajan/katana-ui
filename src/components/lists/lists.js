@@ -13,7 +13,7 @@ export default function Lists(props) {
         <br/>
         <br/>
         <ul className="list--plain--horizontal">
-        <li>item1</li>
+            <li>item1</li>
             <li>item2</li>
             <li>item3</li>
             <li>item4</li>
@@ -34,11 +34,11 @@ export default function Lists(props) {
 
     const numberedList=(
         <ul className="list--numbered">
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-            <li>four</li>
-            <li>five</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Assumenda, quia temporibus eveniet a libero incidunt suscipit</li>
+            <li>Quidem, ipsam illum quis sed voluptatum quae eum fugit earum</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Quidem, ipsam illum quis sed voluptatum quae eum fugit earum</li>
         </ul>
     )
 

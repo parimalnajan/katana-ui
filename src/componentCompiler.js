@@ -8,6 +8,7 @@ import Cards from './components/cards'
 import Inputs from './components/inputs'
 import Lists from './components/lists'
 import Introduction from './components/intro/introduction'
+import Loaders from './components/loaders'
 
 export const navArray=[
     {name:"Introduction",component:<Introduction/>},
@@ -20,6 +21,7 @@ export const navArray=[
     {name:"Inputs",component:<Inputs/>},
     {name:"Lists",component:<Lists/>},
     {name:"Navbar", component:<Navbar/>},
+    {name:"Loaders", component:<Loaders/>}
 ]
 
 //todo:maintain different arrays for nav sections - introduction, utils, colors etc

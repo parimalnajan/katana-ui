@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import './header.css'
-import image from "../site-elements/katana.svg"
+import image from "../site-elements/k2.svg"
 export default function Header(props) {
     
 
@@ -11,10 +11,10 @@ export default function Header(props) {
           <div className="site-navbar shadow2 ">
              <div className="header-left">
                 <div className="text-3xl semibold site-brand flex-column">
-                <span className="">Cocoa.ui </span>
-                   <span>
-                      {/* <img className="site-brand-logo" src={} /> */}
-                   </span>
+                
+                   <div style={{width:"0px"}}>
+                      <img className="site-brand-logo" src={image}/>
+                   </div>
                    
                 </div>
                 <div className="site-search-box ">
