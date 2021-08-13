@@ -56,14 +56,14 @@ export default function Introduction(props) {
 
           <div class="card--basic--horizontal flex-col">
              <button class="link_copy button-primary">Copy</button>
-             <p class="text-gray5">cocoa-ui.netlify.app/src/index.css</p>
+             <p class="text-gray5">    link rel="stylesheet" href="https://cocoa-ui.netlify.app/dist/css/katana.css "</p>
           </div>
 
           <button class="intro-button text-sm button-primary ">
              To Components
           </button>
           <a
-              href="/dist/css/export.css"
+              href="/dist/css/katana.css"
               type="button"
               download="katana.css"
               className=""
