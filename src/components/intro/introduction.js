@@ -62,6 +62,14 @@ export default function Introduction(props) {
           <button class="intro-button text-sm button-primary ">
              To Components
           </button>
+          <a
+              href="/build/export.css"
+              type="button"
+              download="katana.css"
+              className=""
+            >Download</a>
+
+
           <p class="text-2xl semibold mt3 mb1"> Katana Colors</p>
           <p class="text-md text-gray5 medium mb2 ">
              Here are the available color, with the css variables to use them eg.var(--red5)
