@@ -8,7 +8,7 @@ export default function Layout({children,navArray}) {
        <>
           <Header />
           {children}
-          <div className="footer flex-row text-3xl theme1">
+          <div className="footer flex-row ">
              <div>
                 <a
                    href="https://github.com/parimalnajan"
@@ -33,7 +33,7 @@ export default function Layout({children,navArray}) {
                 <i class="fab fa-twitter-square"></i>
                 </a>
              </div>
-             <div>
+             <div title="Portfolio">
              <a
                    href="https://parimal-dev.netlify.app/"
                    target="_blank"
