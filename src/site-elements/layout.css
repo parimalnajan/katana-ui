@@ -12,6 +12,8 @@
     padding:0 16px 0 16px;
 }
 
-.footer a:visited{
+
+.footer a, .footer a:hover, .footer a:focus, .footer a:active {
+    text-decoration: none;
     color: inherit;
 }
