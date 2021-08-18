@@ -39,7 +39,7 @@ export default function Codedisplay({ component }) {
       <>
          <div className="code-container">
             <div className="code-header flex-row">
-               <ul className="list-basic flex-row text-sm medium code-header__list">
+               <ul className="list-basic flex-row text-sm medium code-header__list theme1">
                   {codeDisplay ? (
                      <>
                         <li onClick={() => setCodeType(HTMLString)}>

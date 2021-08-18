@@ -1,13 +1,6 @@
-
-.copy-header{
-   justify-content: flex-end;
-   color:var(--theme1)
-
+.colors-page{
+    width: 80%;
 }
-.copy-header>i:hover{
-    cursor: pointer;
-}
-
 .colortile{
    
     height:48px ;

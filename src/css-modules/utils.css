@@ -1,3 +1,20 @@
+.theme1{
+   color:var(--theme1)
+}
+.theme2{
+   color:var(--theme2)
+}
+.theme3{
+   color:var(--theme3)
+}
+.theme4{
+   color:var(--theme4)
+}
+.theme5{
+   color:var(--theme5)
+}
+
+
 .m25 {
    margin: 0.25rem;
 }

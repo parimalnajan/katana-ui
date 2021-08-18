@@ -11,11 +11,9 @@ export default function Header(props) {
           <div className="site-navbar shadow2 ">
              <div className="header-left">
                 <div className="text-3xl semibold site-brand flex-column">
-                
-                   <div style={{width:"0px"}}>
-                      <img className="site-brand-logo" src={image}/>
-                   </div>
                    
+                <img className="site-brand-logo" src={image}/>
+              
                 </div>
                 <div className="site-search-box ">
                    <input
@@ -26,15 +24,18 @@ export default function Header(props) {
                 </div>
              </div>
              <div className="header-right flex-row">
+                
                 <ul className="flex-row list-nav-tabs">
-                   <li className="text-gray0 ver">v1.0</li>
+                   
+                   <li className="theme3 ver">v1.1</li>
                    <li>
+                  
                       <a href="https://github.com/parimalnajan/cocoa-ui" target="_blank">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
                            width="22"
                            height="22"
-                           fill="#FFFFF0"
+                           fill="var(--theme3)"
                            class="bi bi-github"
                            viewBox="0 0 16 16"
                         >

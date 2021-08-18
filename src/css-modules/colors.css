@@ -1,5 +1,13 @@
 /* color palettes from tailwind, yellow palette from  https://chakra-ui.com/docs/theming/theme*/
 :root {
+   
+    --theme1:#62893c;
+    --theme2:#61892F;
+    --theme3:#86C240;
+    --theme4:#222629;
+    --theme5:#474B4F;
+    
+
     --gray0:#f9fafb;
     --gray1:#F3F4F6;
     --gray2:#E5E7EB;

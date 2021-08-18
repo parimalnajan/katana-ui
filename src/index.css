@@ -13,9 +13,11 @@
 @import "/src/components/lists/lists.css";
 @import "/src/components/intro/introduction.css";
 @import "/src/components/loaders/loaders.css";
+@import "/src/components/colors/colorspage.css";
 body {
  
   margin: 0;
+ 
   color:var(--gray8);
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

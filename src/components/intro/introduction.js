@@ -3,49 +3,24 @@
 //css variables and quickly append a new class with the !important properties
 
 
-import React from 'react'
+import React, { useRef, useState } from 'react'
 
-import Cards from '../cards'
-
-let ColorTile = ({ color }) => {
-   var bodyStyles = window.getComputedStyle(document.body);
-   var fooBar = bodyStyles.getPropertyValue(`--${color}`); //get
-   return (
-      <div>
-         <div
-            className="colortile"
-            style={{
-               backgroundColor: `${fooBar}`,
-            }}
-         ></div>
-         <p className="text-xs text-gray5 semibold mt0">{color}</p>
-      </div>
-   );
-};
-
+import Toast from 'src/site-elements/toast';
 export default function Introduction(props) {
-
-    const colors={ 
-        grays:["gray0","gray1","gray2","gray3","gray4","gray5","gray6","gray7","gray8","gray9"],
-        reds:["red0","red1","red2","red3","red4","red5","red6","red7","red8","red9"],
-        greens:["red0","red1","red2","red3","red4","red5","red6","red7","red8","red9"],
-        blues:["blue0","blue1","blue2","blue3","blue4","blue5","blue6","blue7","blue8","blue9"],
-        greens:["green0","green1","green2","green3","green4","green5","green6","green7","green8","green9"],
-        yellows:["yellow0","yellow1","yellow2","yellow3","yellow4","yellow5","yellow6","yellow7","yellow8","yellow9"],
-      
-
-    }
-    
-    const colorKeys=Object.keys(colors)
-
    
-    const two =colorKeys.map((x,index)=>(
-       colors[x]
-    )  )
-    console.log(two);
-      
+   const [copyToast, setCopyToast] = useState(false);
+
+    let copyLink = () => {
+       navigator.clipboard.writeText(
+          `<linkhref="https://cocoa-ui.netlify.app/dist/css/katana.css  rel="stylesheet" ">`
+       );
+       setCopyToast(true);
+       setTimeout(() => {
+          setCopyToast(false);
+       }, 2000);
+    };
     return (
-       <>
+       <div className="intro-page">
           <div className="text-3xl semibold mt1 mb1">
              Getting Started with KatanaUI
           </div>
@@ -54,38 +29,41 @@ export default function Introduction(props) {
              Project
           </div>
 
-          <div class="card--basic--horizontal flex-col">
-             <button class="link_copy button-primary">Copy</button>
-             <p class="text-gray5">    link rel="stylesheet" href="https://cocoa-ui.netlify.app/dist/css/katana.css "</p>
+          <div class="card--basic--horizontal flex-col mb1">
+             <div className="flex-row copy-header">
+             {copyToast?<Toast sizePx={"10px"}>Copied Successfully!</Toast>:<span></span>}
+            
+             <i className="fas fa-clipboard mt0 ml1 mb0"  onClick={copyLink}> </i>
+             </div>
+             <span class="text-gray5">
+                <span>{"<"}</span>               
+                link href="https://cocoa-ui.netlify.app/dist/css/katana.css "
+                rel="stylesheet"
+                <span>{">"}</span>
+             </span>
           </div>
-
-          <button class="intro-button text-sm button-primary ">
-             To Components
-          </button>
+          <div className="text-gray5 text-md mt2 medium">
+           Alternatively, download the .css file and paste it in your project directory, and update the link tag accordingly.
+          </div>
+          <div class="card--basic--horizontal flex-col mb1 mt1">
+               <span class="text-gray5 mt1">
+                <span>{"<"}</span>               
+                link href="project/pathTo/katana.css "
+                rel="stylesheet"
+                <span>{">"}</span>
+             </span>
+          </div>
+        
           <a
-              href="/dist/css/katana.css"
-              type="button"
-              download="katana.css"
-              className=""
-            >Download</a>
-
-
-          <p class="text-2xl semibold mt3 mb1"> Katana Colors</p>
-          <p class="text-md text-gray5 medium mb2 ">
-             Here are the available color, with the css variables to use them eg.var(--red5)
-          </p>
-
-          <div className="color-wrapper">
-             {Object.keys(colors).map((x, index) => (
-                <div className="color-wrapper">
-                   {colors[x].map((y, index2) => (
-                      <div>
-                         <ColorTile color={y}></ColorTile>
-                      </div>
-                   ))}
-                </div>
-             ))}
-          </div>
-       </>
+             href="/dist/css/katana.css"
+             type="button"
+             download="katana.css"
+             className="intro-button button-primary"
+             style={{textDecoration:"none",backgroundColor:"var(--theme1)"}}             
+          >
+             Download .css
+          </a>
+         
+       </div>
     );
 }

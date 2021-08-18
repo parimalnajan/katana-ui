@@ -1,0 +1,15 @@
+.footer{
+    height: 50px;
+    background-color: var(--theme4);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer>div{
+    padding:0 16px 0 16px;
+}
+
+.footer a:visited{
+    color: inherit;
+}
