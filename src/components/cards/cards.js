@@ -71,12 +71,12 @@ export default function Cards(props) {
           <img src="https://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK-1024-80.jpg.webp"></img>
 
           <div className="card--image__body">
-             <div className="prod_category text-xs light mb0">
+             <div className="prod_category text-xs light mb25">
                 {product.category}
              </div>
-             <div className="text semibold mb25">{product.title}</div>
+             <div className="text medium mb25">{product.title}</div>
              <div className="rating flex-row">
-                <div className="text-2xs semibold badge--basic badge--success rating__badge">
+                <div className="text-2xs medium badge--basic badge--success rating__badge">
                    <span>{product.ratingScore}</span>
                    <i class="fas text-3xs fa-star rating__star"></i>
                 </div>
@@ -86,14 +86,14 @@ export default function Cards(props) {
              </div>
              <div className="price mt0 flex-row">
                 <i class="fas fa-rupee-sign mr25"></i>
-                <span className="text-lg semibold">{product.price}</span>
+                <span className="text-lg medium">{product.price}</span>
              </div>
-             <span className="text-xs light">
+             
                 <span class="text-3xs mt1 normal badge--basic badge--warning emi">
                    EMI available
                 </span>
-             </span>
-             <button class="text-sm button-primary buy-button mt1">
+            
+             <button class="text-xs button-primary buy-button mt1">
                 <i class="fas fa-shopping-cart mr25"></i> Add To Cart
              </button>
           </div>
