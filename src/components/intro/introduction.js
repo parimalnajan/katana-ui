@@ -37,7 +37,7 @@ export default function Introduction(props) {
              </div>
              <span class="text-gray5">
                 <span>{"<"}</span>               
-                link href="https://cocoa-ui.netlify.app/dist/css/katana.css "
+                link href="https://katana-ui.netlify.app/dist/css/katana.css "
                 rel="stylesheet"
                 <span>{">"}</span>
              </span>

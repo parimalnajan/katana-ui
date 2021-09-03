@@ -3,7 +3,8 @@
 }
 
 .main-content {
-   width: 100%;
+   
+   width: 90vw;
    min-height: 100vh;
    padding: 0 2rem 2rem 2rem;
 }
@@ -25,7 +26,8 @@
       padding: 0px;
    }
    .main-content {
-      margin: 1rem;
+      margin: 0;
+      padding:16px;
      
    }
 }

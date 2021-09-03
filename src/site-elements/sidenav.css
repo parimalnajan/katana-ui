@@ -1,6 +1,6 @@
 .sidenav{
-    background-color:var(--gray1);
-   
+    background-color:var(--gray0);
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
     min-height:100vh;
     width:20%;
     padding-left:32px;    
@@ -40,12 +40,33 @@ text-decoration: none;
   color: white;
 }
 
-@media(max-width:576px){
-.sidenav{
-  
-  align-self: center;
- width:80%;  
-}
+.drawer-button{
+  display: none; 
 }
 
-  
+.nav-hidden{
+  display: none;
+}
+@media(max-width:576px){
+.drawer-nav{
+position: sticky;
+top:80px;
+width: 100vw;
+height: 100vh;
+ align-self: center;
+ z-index: 9;
+
+}
+
+.static-nav{
+  display: none;
+}
+
+
+  .drawer-button{
+   z-index: 99;
+   display: inline;
+  }
+}
+
+
